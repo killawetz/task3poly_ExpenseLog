@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" style="-fx-background-color: #83cdff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChooseCategoriesController">
+    <children>
+        <AnchorPane layoutY="48.0" prefHeight="360.0" prefWidth="650.0" style="-fx-background-color: ffffff;">
+         <children>
+            <ImageView fx:id="transportPic" fitHeight="88.0" fitWidth="107.0" layoutX="24.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../transport.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="foodPic" fitHeight="100.0" fitWidth="100.0" layoutX="143.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../еда.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="healthPic" fitHeight="100.0" fitWidth="100.0" layoutX="261.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../здоровье.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cafePic" fitHeight="100.0" fitWidth="100.0" layoutX="402.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../кафе.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="hygienePic" fitHeight="100.0" fitWidth="100.0" layoutX="40.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../гигиена.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="entertainmentPic" fitHeight="100.0" fitWidth="100.0" layoutX="392.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../развлечения.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sportPic" fitHeight="100.0" fitWidth="100.0" layoutX="518.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../спорт.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="petsPic" fitHeight="100.0" fitWidth="100.0" layoutX="142.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../питомцы.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="otherPic" fitHeight="100.0" fitWidth="100.0" layoutX="518.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../другое.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="clothesPic" fitHeight="100.0" fitWidth="100.0" layoutX="261.0" layoutY="213.0">
+               <image>
+                  <Image url="@../магазин.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="195.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите категорию">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+         </children>
+        </AnchorPane>
+        <Text layoutX="244.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense log ">
+            <font>
+                <Font name="MS Outlook" size="29.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

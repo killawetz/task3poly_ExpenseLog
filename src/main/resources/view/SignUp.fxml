@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #83cdff;" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane layoutY="48.0" prefHeight="354.0" prefWidth="600.0" style="-fx-background-color: ffffff;">
+         <children>
+            <Text fx:id="regFirstText" layoutX="88.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Привет, для начала надо зарегистрироваться!">
+               <font>
+                  <Font name="Lucida Sans Unicode" size="19.0" />
+               </font>
+            </Text>
+            <TextField fx:id="regLoginField" layoutX="205.0" layoutY="83.0" prefHeight="39.0" prefWidth="190.0" promptText="Имя.." style="-fx-background-color: e2e2e2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="regButton" layoutX="219.0" layoutY="224.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="163.0" text="Зарегистрироваться" />
+            <PasswordField fx:id="regPasswordField" layoutX="205.0" layoutY="152.0" prefHeight="39.0" prefWidth="190.0" promptText="Пароль.." style="-fx-background-color: e2e2e2;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </PasswordField>
+            <Hyperlink fx:id="regTextHasAlready" layoutX="236.0" layoutY="299.0" text="Уже зарегистрированы?" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="219.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense log ">
+         <font>
+            <Font name="MS Outlook" size="29.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
